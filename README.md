@@ -56,23 +56,23 @@ ai_resume_matcher/
 
 1. Clone the repository:
 
-git clone https://github.com/Triparno04/AI_Resume_Matcher.git
-cd AI_Resume_Matcher
+    git clone https://github.com/Triparno04/AI_Resume_Matcher.git
+    cd AI_Resume_Matcher
 
 2. Create and activate a virtual environment:
    
-python -m venv .venv
-source .venv/bin/activate    # On Windows: .venv\Scripts\activate
+    python -m venv .venv
+    source .venv/bin/activate    # On Windows: .venv\Scripts\activate
 
 3. Install dependencies:
 
-cd "C:\Users\Triparno\Downloads\VS Code\ai_resume_matcher"
+    cd "C:\Users\Triparno\Downloads\VS Code\ai_resume_matcher"
 
 4. Set up your environment variables in a .env file:
 
-OPENAI_API_KEY=your-groq-key
-OPENAI_BASE_URL=https://api.groq.com/openai/v1/
+    OPENAI_API_KEY=your-groq-key
+    OPENAI_BASE_URL=https://api.groq.com/openai/v1/
 
 5. Run the application:
 
-streamlit run app/main_ui.py
+    streamlit run app/main_ui.py
